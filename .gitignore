@@ -3,6 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Jetbrains
+.idea/
+image/
+img/
+file/
+js/
+*.pkl
+
 # C extensions
 *.so
 
