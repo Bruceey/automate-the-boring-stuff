@@ -10,6 +10,7 @@ img/
 file/
 js/
 *.pkl
+temp*
 
 # C extensions
 *.so
