@@ -17,4 +17,11 @@ def calcTime(*args):
     return "共花时间%d小时%d分钟" %(hour, minute)
 
 if __name__ == '__main__':
-    print(calcTime(12.04,12.32,13.40,13.16,12.56,9.02,15.22))
+    # print(calcTime(12.04,12.32,13.40,13.16,12.56,9.02,15.22))
+    from pathlib import Path
+
+    path = r"C:\Users\17634\Desktop"
+    p = Path(path)
+    for p2 in p.iterdir():
+        if '唐宇迪课程资料' in str(p2):
+            print(list(p2.iterdir()))
